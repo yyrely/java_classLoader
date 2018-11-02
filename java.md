@@ -50,7 +50,7 @@ final表示这个属性赋值后就不能更改了
 这我们就要说一下java的类加载机制了  
 类加载过程一共分为五个部分,如下图:
 
-![类加载过程](\类加载过程.png)
+![类加载过程](https://github.com/yyrely/java_classLoader/blob/master/%E7%B1%BB%E5%8A%A0%E8%BD%BD%E8%BF%87%E7%A8%8B.png)
 
 * 加载(重点)
 ```text
@@ -72,7 +72,7 @@ final表示这个属性赋值后就不能更改了
 
 堆中会生成一个该类的java.lang.Class对象,作为入口去访问方法区中存储的数据
 ```
-![类信息存放](\类信息存放.png)
+![类信息存放](https://github.com/yyrely/java_classLoader/blob/master/%E7%B1%BB%E4%BF%A1%E6%81%AF%E5%AD%98%E6%94%BE.png)
 
 ```text
 在加载时,类的静态方法就已经存在方法区中了,在堆中生成了对应的对象,所以通过这个对象就可以直接访问静态方法了.如我们平时使用的: 类名.静态方法名()
